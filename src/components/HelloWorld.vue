@@ -28,6 +28,9 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+
+  <div>{{message}}</div>
+
 </template>
 
 <script>
@@ -35,6 +38,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data() {
+      return {
+          message: 'hello world'
+      }
   }
 }
 </script>

@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "el-cascader": "^1.0.1",
+    "element-china-area-data": "^6.0.2",
     "vue": "^3.2.13"
   },
   "devDependencies": {

@@ -1,18 +1,15 @@
 <template>
-<!--  <img alt="Vue logo" src="./assets/logo.png">-->
-<!--  <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+  <img alt="Vue logo" src="./assets/logo.png">
   <InformationChoose/>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
-import InformationChoose from "./components/InformationChoose.vue"
+
+import InformationChoose from "@/components/InformationChoose.vue";
 
 export default {
   name: 'App',
-  components: {
-    InformationChoose
-  }
+  components: {InformationChoose},
 }
 </script>
 
